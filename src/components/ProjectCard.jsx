@@ -1,6 +1,10 @@
-export default function ProjectCard({ title, tags, description, links }) {
+export default function ProjectCard({ title, tags, description, links, image, onHover, previewDescription }) {
   return (
-    <div className="project-card">
+    <div 
+      className="project-card"
+      onMouseEnter={() => onHover({ title, tags, description, links, image, previewDescription })}
+    >
+      <img src={image} alt={title} className="project-image" />
       <div className="project-header">
         <h3>{title}</h3>
         <div className="project-tags">

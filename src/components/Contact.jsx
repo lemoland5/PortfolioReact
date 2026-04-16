@@ -1,8 +1,8 @@
 export default function Contact() {
   return (
-    <section id="contact" className="section">
+    <section id="contact" className="section contact-section">
       <h2>Let's Connect</h2>
-      <div className="contact-panel">
+      <div className="contact-container">
         <p>I'm always interested in hearing about new projects and opportunities.</p>
         <div className="contact-links">
           <a href="mailto:przemyslaw.smyczyk@proton.me" className="contact-link">
@@ -14,7 +14,6 @@ export default function Contact() {
           <a href="#" className="contact-link">
             GitHub
           </a>
-
         </div>
       </div>
     </section>

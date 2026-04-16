@@ -17,12 +17,18 @@ const skillsData = [
 
 export default function Skills() {
   return (
-    <section id="skills" className="section">
-      <h2>Skills & Technologies</h2>
-      <div className="skills-grid">
-        {skillsData.map((skillGroup, index) => (
-          <SkillPanel key={index} {...skillGroup} />
-        ))}
+    <section id="skills" className="section skills-section">
+      <div className="skills-container">
+        <div className="skills-left">
+          <h2>Skills & Technologies</h2>
+        </div>
+        <div className="skills-right">
+          <div className="skills-grid">
+            {skillsData.map((skillGroup, index) => (
+              <SkillPanel key={index} {...skillGroup} />
+            ))}
+          </div>
+        </div>
       </div>
     </section>
   )
