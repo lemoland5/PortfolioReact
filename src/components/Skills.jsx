@@ -2,16 +2,21 @@ import SkillPanel from './SkillPanel'
 
 const skillsData = [
   {
+    category: 'Programowanie Systemów',
+    skills: ['C/C++', 'Java', 'Sterowniki PLC'],
+  },
+  {
     category: 'Frontend',
-    skills: ['React', 'TypeScript', 'CSS & Tailwind', 'Responsive Design'],
+    skills: ['React', 'Angular', 'Tailwind CSS', 'Bootstrap'],
   },
   {
     category: 'Backend',
-    skills: ['Node.js', 'Express.js', 'Databases', 'APIs & REST'],
+    skills: ['Node/Express', 'PHP','SQL', 'MongoDB'],
   },
+
   {
-    category: 'Tools',
-    skills: ['Git & GitHub', 'Vite', 'Webpack', 'DevTools'],
+    category: 'Narzędzia',
+    skills: ['Git', 'Docker' ],
   },
 ]
 

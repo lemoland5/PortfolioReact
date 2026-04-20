@@ -3,15 +3,17 @@ export default function About() {
     <section id="about" className="section about-section">
       <div className="about-container">
         <div className="about-left">
-          <h2>About Me</h2>
+          <h2>O mnie</h2>
         </div>
         <div className="about-right">
           <p>
-            I'm passionate about building beautiful and performant web applications. 
-            With expertise in modern frontend technologies, I transform ideas into seamless digital experiences.
+            Specjalizuję się w automatyzacji przemysłowej. Moje spojrzenie na automatykę w oparciu o logistykę oraz UX/UI daje przedsiębiorcom sprawne systemy, które są wygodne w użyciu.
           </p>
           <p>
-            In my spare time I love listening to music and playing the guitar. I also like to dabble in music and video realisation
+            Posiadam doświadczenie w tworzeniu stron internetowych, systemów backendowych oraz programów komputerowych.
+          </p>
+          <p>
+            W wolnym czasie kocham słuchać muzyki oraz grać na gitarze. Interesuję się również produkcją audio i wideo.
           </p>
         </div>
       </div>
