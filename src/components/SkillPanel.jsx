@@ -1,3 +1,5 @@
+import './SkillPanel.css'
+
 export default function SkillPanel({ category, skills }) {
   return (
     <div className="skill-panel">

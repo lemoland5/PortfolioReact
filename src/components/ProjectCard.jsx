@@ -1,3 +1,5 @@
+import './ProjectCard.css'
+
 export default function ProjectCard({ title, tags, description, links, image, onHover, previewDescription }) {
   return (
     <div 

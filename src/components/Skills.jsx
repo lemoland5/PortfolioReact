@@ -1,4 +1,5 @@
 import SkillPanel from './SkillPanel'
+import './Skills.css'
 
 const skillsData = [
   {

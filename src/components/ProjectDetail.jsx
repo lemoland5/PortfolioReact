@@ -17,7 +17,7 @@ export default function ProjectDetail() {
       <Header />
       <section className="project-detail-section">
         <div className="project-detail-container">
-          <Link to="/#projects" className="back-button">← Back to Projects</Link>
+          <Link to="/#projects" className="back-button">← Wróć do projektów</Link>
           
           <h1>{project.title}</h1>
           
@@ -34,17 +34,17 @@ export default function ProjectDetail() {
 
             <div className="project-meta">
               <div className="meta-item">
-                <h4>Duration</h4>
+                <h4>Czas trwania</h4>
                 <p>{project.duration}</p>
               </div>
               <div className="meta-item">
-                <h4>Role</h4>
+                <h4>Rola</h4>
                 <p>{project.role}</p>
               </div>
             </div>
 
             <div className="project-section">
-              <h3>Key Features</h3>
+              <h3>Najważniejsze funkcjonalności</h3>
               <ul className="features-list">
                 {project.features.map((feature, index) => (
                   <li key={index}>{feature}</li>
@@ -53,7 +53,7 @@ export default function ProjectDetail() {
             </div>
 
             <div className="project-section">
-              <h3>Technologies Used</h3>
+              <h3>Użyte technologie</h3>
               <div className="tech-list">
                 {project.technologies.map((tech, index) => (
                   <span key={index} className="tech-badge">{tech}</span>
@@ -62,14 +62,10 @@ export default function ProjectDetail() {
             </div>
 
             <div className="project-section">
-              <h3>Challenge</h3>
+              <h3>Perspektywa</h3>
               <p>{project.challenge}</p>
             </div>
 
-            <div className="project-section">
-              <h3>Results</h3>
-              <p>{project.results}</p>
-            </div>
           </div>
 
           <div className="project-links">

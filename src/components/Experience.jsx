@@ -1,39 +1,45 @@
 import './Experience.css'
 
 const experienceData = [
-  {
-    title: 'Senior Frontend Developer',
-    company: 'Tech Solutions Inc.',
-    duration: 'Jan 2022 - Present',
-    description: 'Leading frontend development for enterprise applications, mentoring junior developers, and implementing best practices for UI/UX.',
+    {
+    title: 'Automatyzacja procesów',
+    company: 'NBPrint',
+    duration: 'Sierpień - Listopad 2025',
+    description: '',
     highlights: [
-      'Architected component library used across 10+ projects',
-      'Improved application performance by 45%',
-      'Mentored 3 junior developers',
+      'Stworzenie narzędzia SELER do automatyzacji dodawania produktów do baz danych GS1 i Baselinker',
     ],
   },
   {
-    title: 'Full Stack Developer',
-    company: 'Digital Agency Co.',
-    duration: 'Jun 2020 - Dec 2021',
-    description: 'Developed full-stack web applications for various clients, from concept to deployment.',
+    title: 'Data Entry / DB Admin / Adobe Scripting',
+    company: 'NBPrint',
+    duration: 'Lipiec - Sierpień 2025',
+    description: '',
     highlights: [
-      'Built 15+ client projects using React and Node.js',
-      'Implemented real-time features using WebSockets',
-      'Optimized database queries reducing response time by 60%',
+      'Administrowanie bazą danch produktów Baselinker dla sklepu odzieżowego',
+      'Tworzenie skryptów automatyzujących tworzenie mockupów ubrań w Photoshopie'
+    ],
+  },
+    {
+    title: 'Fullstack web developer',
+    company: 'B2 Software',
+    duration: 'Styczeń - Czerwiec 2025',
+    description: 'Praca nad projektami aplikacji dla przedsiębiorstw',
+    highlights: [
+      'Praktyki zawodowe - Praca nad projektem aplikacji do wersjonowania faktur',
+      'Płatne zlecenie - Praca nad aplikacją MESA do planowania projektów budowlanych',
     ],
   },
   {
-    title: 'Junior Developer',
-    company: 'StartUp Studio',
-    duration: 'Jan 2019 - May 2020',
-    description: 'Started career developing web applications and learning modern web technologies.',
+    title: 'Frontend / Wordpress Developer',
+    company: 'BPGame',
+    duration: 'Wrzesień - Październik 2024',
+    description: 'Praca nad projektami stron internetowych w ramach praktyk zawodowych Erasmus+ w Portugalii',
     highlights: [
-      'Developed features for mobile-first web applications',
-      'Collaborated with design team on UI implementations',
-      'Contributed to 5 successful product launches',
+      'Stworzenie aplikacji sklepu fotograficznego',
     ],
   },
+
 ]
 
 const certificationsData = [
@@ -85,7 +91,7 @@ export default function Experience() {
           </div>
 
           <div className="certifications-column">
-            <h3>Certifications</h3>
+            <h3>Certyfikaty</h3>
             <div className="certifications-grid">
               {certificationsData.map((cert, index) => (
                 <div key={index} className="certification-card">

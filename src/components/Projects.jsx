@@ -2,6 +2,7 @@ import { useNavigate } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import ProjectCard from './ProjectCard'
 import { projectsData } from '../data/projects.js'
+import './Projects.css'
 
 export default function Projects() {
   const [hoveredProject, setHoveredProject] = useState(projectsData[0])
