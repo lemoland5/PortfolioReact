@@ -24,13 +24,12 @@ export default function Contact() {
 
   return (
     <section id="contact" className="section contact-section">
-      <h2>Let's Connect</h2>
+      <h2>Kontakt</h2>
       <div className="contact-container">
-        <p>I'm always interested in hearing about new projects and opportunities.</p>
         
         <form className="contact-form" onSubmit={handleSubmit}>
           <div className="form-group">
-            <label htmlFor="name">Name</label>
+            <label htmlFor="name">Imię</label>
             <input
               type="text"
               id="name"
@@ -38,12 +37,12 @@ export default function Contact() {
               value={formData.name}
               onChange={handleChange}
               required
-              placeholder="Your name"
+              placeholder="Imię i nazwisko"
             />
           </div>
           
           <div className="form-group">
-            <label htmlFor="email">Email</label>
+            <label htmlFor="email">Adres email</label>
             <input
               type="email"
               id="email"
@@ -51,24 +50,24 @@ export default function Contact() {
               value={formData.email}
               onChange={handleChange}
               required
-              placeholder="Your email"
+              placeholder="Email"
             />
           </div>
           
           <div className="form-group">
-            <label htmlFor="message">Message</label>
+            <label htmlFor="message">Wiadomość</label>
             <textarea
               id="message"
               name="message"
               value={formData.message}
               onChange={handleChange}
               required
-              placeholder="Your message"
+              placeholder="Wiadomość"
               rows="5"
             />
           </div>
           
-          <button type="submit" className="submit-btn">Send Message</button>
+          <button type="submit" className="submit-btn">Wyślij wiadomość</button>
         </form>
         
         <div className="contact-links">

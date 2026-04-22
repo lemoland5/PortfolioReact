@@ -26,7 +26,7 @@ export default function Skills() {
     <section id="skills" className="section skills-section">
       <div className="skills-container">
         <div className="skills-left">
-          <h2>Skills & Technologies</h2>
+          <h2>Umiejętności i technologie</h2>
         </div>
         <div className="skills-right">
           <div className="skills-grid">

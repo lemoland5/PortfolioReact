@@ -24,11 +24,11 @@ export default function Header() {
           )}
         </div>
         <nav className="nav">
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#experience">Experience</a>
-          <a href="#skills">Skills</a>
-          <a href="#contact">Contact</a>
+          <a href="#about">O mnie</a>
+          <a href="#projects">Projekty</a>
+          <a href="#experience">Doświadczenie</a>
+          <a href="#skills">Umiejętności</a>
+          <a href="#contact">Kontakt</a>
         </nav>
       </div>
     </header>

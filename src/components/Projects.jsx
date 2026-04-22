@@ -17,7 +17,7 @@ export default function Projects() {
 
   return (
     <section id="projects" className="section projects-section">
-      <h2>Projects</h2>
+      <h2>Projekty</h2>
       <div className="projects-container">
         <div className="projects-grid">
           {projectsData.map((project, index) => (
