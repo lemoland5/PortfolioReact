@@ -1,13 +1,13 @@
-import './About.css'
+import styles from './About.module.css'
 
 export default function About() {
   return (
-    <section id="about" className="section about-section">
-      <div className="about-container">
-        <div className="about-left">
+    <section id="about" className={styles['about-section']}>
+      <div className={styles['about-container']}>
+        <div className={styles['about-left']}>
           <h2>O mnie</h2>
         </div>
-        <div className="about-right">
+        <div className={styles['about-right']}>
           <p>
             Specjalizuję się w automatyzacji przemysłowej. Moje spojrzenie na automatykę w oparciu o logistykę oraz UX/UI daje przedsiębiorcom sprawne systemy, które są wygodne w użyciu.
           </p>

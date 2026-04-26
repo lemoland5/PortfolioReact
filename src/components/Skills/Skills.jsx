@@ -1,5 +1,5 @@
-import SkillPanel from './SkillPanel'
-import './Skills.css'
+import SkillPanel from '../SkillPanel/SkillPanel'
+import styles from './Skills.module.css'
 
 const skillsData = [
   {
@@ -17,19 +17,19 @@ const skillsData = [
 
   {
     category: 'Narzędzia',
-    skills: ['Git', 'Docker' ],
+    skills: ['Git', 'Docker', 'Linux Server', 'Postfix'],
   },
 ]
 
 export default function Skills() {
   return (
-    <section id="skills" className="section skills-section">
-      <div className="skills-container">
-        <div className="skills-left">
+    <section id="skills" className={`${styles['skills-section']} section`}>
+      <div className={styles['skills-container']}>
+        <div className={styles['skills-left']}>
           <h2>Umiejętności i technologie</h2>
         </div>
-        <div className="skills-right">
-          <div className="skills-grid">
+        <div className={styles['skills-right']}>
+          <div className={styles['skills-grid']}>
             {skillsData.map((skillGroup, index) => (
               <SkillPanel key={index} {...skillGroup} />
             ))}

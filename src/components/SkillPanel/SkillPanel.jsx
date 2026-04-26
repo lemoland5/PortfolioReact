@@ -1,10 +1,10 @@
-import './SkillPanel.css'
+import styles from './SkillPanel.module.css'
 
 export default function SkillPanel({ category, skills }) {
   return (
-    <div className="skill-panel">
+    <div className={styles['skill-panel']}>
       <h3>{category}</h3>
-      <ul className="skill-list">
+      <ul className={styles['skill-list']}>
         {skills.map((skill, index) => (
           <li key={index}>{skill}</li>
         ))}

@@ -70,11 +70,27 @@
   background: #1a1a1a;
 }
 
-.preview-description {
+.projects-preview {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.preview-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.preview-content h3 {
+  margin: 0;
+}
+
+.preview-content p {
+  margin: 0;
   font-size: 18px;
   line-height: 1.8;
   color: var(--text);
-  margin: 0;
 }
 
 @media (max-width: 768px) {

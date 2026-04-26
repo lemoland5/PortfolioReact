@@ -4,7 +4,7 @@ export const projectsData = [
     tags: ['React', 'Express', 'Docker'],
     description: 'Aplikacja służąca do tworzenia zaawansowanych wykresów Gantta dla planowania projektów budowlanych',
     previewDescription: 'Aplikacja stworzona dla zespołu architektów jako dodatkowe płatne zlecenie po ukończeniu praktyk zawodowych w firmie B2 Software. Narzędzie służy do planowania projektów budowlanych w formie złożonych wykresów Gantta. Napisana przy użyciu Reacta na frontendzie i Expressa na backendzie daje zarządcom czyste spojrzenie na często chaotyczne środowisko jakim są projekty konstrukcyjne.',
-    image: 'https://picsum.photos/600/400?random=10',
+    image: 'https://i.imgur.com/HcQaBzI.png',
     links: [
       { label: 'Github', url: '#' },
     ],
@@ -22,11 +22,11 @@ export const projectsData = [
     challenge: 'Stworzenie skomplikowanej aplikacji dla wymagającego klienta w krótkim czasie. Zadanie okazało się dla mnie bardzo budujące pod kątem pracy w zespole i reakcji na szybko zmieniające się wytyczne projektu.',
   },
   {
-    title: 'WordDiff',
-    tags: ['React', 'Java Spring'],
+    title: 'DocDiff',
+    tags: ['React', 'Java Spring', 'Linux Server', 'Postfix'],
     description: 'Aplikajca dla przedsiębiorstw służąca do wersjonowania plików PDF.',
     previewDescription: 'Narzędzie stworzone do wersjonowania faktur i umów bazowane na edytorze Gita. Oparta na zaawansowanym algorytmie dzielącym plik na zmiennej długości bloki aplikacja notuje zmiany, usunięcia, przesunięcia i dodania w plikach PDF i DOC/DOCX',
-    image: 'https://picsum.photos/600/400?random=20',
+    image: 'https://i.imgur.com/2FBLdQM.png',
     links: [
       { label: 'Github', url: '#' },
     ],
@@ -46,7 +46,7 @@ export const projectsData = [
     tags: ['React', 'Node/Express'],
     description: 'Aplikacja i forum stworzone dla osób zmagających się z wypaleniem zawodowym.',
     previewDescription: 'Stworzona w ramach konkursu Hack Heroes aplikacja Worksense jest narzędziem dla osób zmagających się z wypaleniem zawodowym. Mechanizmy inspirowane aplikacjami do rzucania nałogów pomagają użytkownikom dbać o zdrowie psychiczne oraz prowadzić rozmowę z innymi osobami zmagającymi się z tymi samymi problemami.',
-    image: 'https://picsum.photos/600/400?random=30',
+    image: 'https://i.imgur.com/lpfrIMp.png',
     links: [
       { label: 'Strona', url: 'https://worksense.pl/forum' },
       { label: 'Github', url: 'https://github.com/kwoszek/worksense' },
@@ -69,7 +69,7 @@ export const projectsData = [
     tags: ['Python/Tkinter', 'Javascript/Adobe Scripts'],
     description: 'Narzędzie służące do automatyzacji procesów dla firmy odzieżowej.',
     previewDescription: 'Pakiet narzędzi stworzony dla firmy odzieżowej pomagający w najbardziej czasochłonnych zadaniach. Program zawiera narzędzia do masowego dodawania produktów do baz danych platform MojeGS1 i Baselinker oraz automatyzacji tworzenia i obróbki zdjęć mockupów produktów.',
-    image: 'https://picsum.photos/600/400?random=40',
+    image: 'https://i.imgur.com/y76gPzo.png',
     links: [
       { label: 'Github', url: 'https://github.com/lemoland5/SELER/tree/main' },
     ],

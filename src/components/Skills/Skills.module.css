@@ -50,8 +50,4 @@
   .skills-grid {
     grid-template-columns: 1fr;
   }
-
-  .skill-panel {
-    padding: 20px;
-  }
 }

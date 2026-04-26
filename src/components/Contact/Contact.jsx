@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './Contact.css'
+import styles from './Contact.module.css'
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -23,12 +23,12 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className="section contact-section">
+    <section id="contact" className={`${styles['contact-section']} section`}>
       <h2>Kontakt</h2>
-      <div className="contact-container">
+      <div className={styles['contact-container']}>
         
-        <form className="contact-form" onSubmit={handleSubmit}>
-          <div className="form-group">
+        <form className={styles['contact-form']} onSubmit={handleSubmit}>
+          <div className={styles['form-group']}>
             <label htmlFor="name">Imię</label>
             <input
               type="text"
@@ -41,7 +41,7 @@ export default function Contact() {
             />
           </div>
           
-          <div className="form-group">
+          <div className={styles['form-group']}>
             <label htmlFor="email">Adres email</label>
             <input
               type="email"
@@ -54,7 +54,7 @@ export default function Contact() {
             />
           </div>
           
-          <div className="form-group">
+          <div className={styles['form-group']}>
             <label htmlFor="message">Wiadomość</label>
             <textarea
               id="message"
@@ -67,17 +67,17 @@ export default function Contact() {
             />
           </div>
           
-          <button type="submit" className="submit-btn">Wyślij wiadomość</button>
+          <button type="submit" className={styles['submit-btn']}>Wyślij wiadomość</button>
         </form>
         
-        <div className="contact-links">
-          <a href="mailto:przemyslaw.smyczyk@proton.me" className="contact-link">
+        <div className={styles['contact-links']}>
+          <a href="mailto:przemyslaw.smyczyk@proton.me" target="_blank"  className={styles['contact-link']}>
             Email
           </a>
-          <a href="#" className="contact-link">
+          <a href="https://www.youtube.com/@NiepKiep" target="_blank"  className={styles['contact-link']}>
             Youtube
           </a>
-          <a href="#" className="contact-link">
+          <a href="https://github.com/lemoland5" target="_blank" className={styles['contact-link']}>
             GitHub
           </a>
         </div>

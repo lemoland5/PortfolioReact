@@ -1,11 +1,10 @@
 import { useState, useEffect } from 'react'
-import './Header.css'
+import styles from './Header.module.css'
 
 export default function Header() {
   const [apiData, setApiData] = useState(null)
 
   useEffect(() => {
-    // Fetch from a sample API
     fetch('https://api.github.com/users/github')
       .then(res => res.json())
       .then(data => setApiData(data))
@@ -13,17 +12,17 @@ export default function Header() {
   }, [])
 
   return (
-    <header className="header">
-      <div className="header-content">
-        <h1 className="logo"><a href="/">Portfolio</a></h1>
-        <div className="header-middle">
+    <header className={styles.header}>
+      <div className={styles['header-content']}>
+        <h1 className={styles.logo}><a href="/">Portfolio</a></h1>
+        <div className={styles['header-middle']}>
           {apiData ? (
-            <p className="api-info">{apiData.login} • {apiData.public_repos} repos</p>
+            <p className={styles['api-info']}>{apiData.login} • {apiData.public_repos} repos</p>
           ) : (
-            <p className="api-info">Loading...</p>
+            <p className={styles['api-info']}>Loading...</p>
           )}
         </div>
-        <nav className="nav">
+        <nav className={styles.nav}>
           <a href="#about">O mnie</a>
           <a href="#projects">Projekty</a>
           <a href="#experience">Doświadczenie</a>
@@ -34,4 +33,3 @@ export default function Header() {
     </header>
   )
 }
-
