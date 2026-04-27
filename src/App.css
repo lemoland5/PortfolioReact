@@ -42,6 +42,16 @@
 }
 
 /* Responsive Design */
+@media (max-width: 1024px) {
+  .section {
+    padding: 25px 8px;
+  }
+
+  .section h2 {
+    font-size: 32px;
+  }
+}
+
 @media (max-width: 768px) {
   .header-content {
     flex-direction: column;

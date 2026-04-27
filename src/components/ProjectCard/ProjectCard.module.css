@@ -87,6 +87,24 @@
   opacity: 0.8;
 }
 
+@media (max-width: 1024px) {
+  .project-card {
+    height: 380px;
+  }
+
+  .project-image {
+    height: 130px;
+  }
+
+  .project-card h3 {
+    font-size: 15px;
+  }
+
+  .project-card p {
+    font-size: 13px;
+  }
+}
+
 @media (max-width: 768px) {
   .project-card {
     padding: 20px;

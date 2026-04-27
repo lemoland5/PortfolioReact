@@ -181,6 +181,20 @@
   background: var(--accent);
 }
 
+@media (max-width: 1024px) {
+  .project-detail-container h1 {
+    font-size: 42px;
+  }
+
+  .project-description {
+    font-size: 18px;
+  }
+
+  .project-section h3 {
+    font-size: 22px;
+  }
+}
+
 @media (max-width: 768px) {
   .project-detail-container h1 {
     font-size: 36px;

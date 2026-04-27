@@ -93,6 +93,20 @@
   color: var(--text);
 }
 
+@media (max-width: 1024px) {
+  .projects-section h2 {
+    font-size: 32px;
+  }
+
+  .projects-container {
+    gap: 25px;
+  }
+
+  .projects-left h2 {
+    font-size: 32px;
+  }
+}
+
 @media (max-width: 768px) {
   .projects-container {
     grid-template-columns: 1fr;
@@ -101,6 +115,10 @@
 
   .projects-left h2 {
     font-size: 28px;
+  }
+
+  .projects-preview {
+    display: none;
   }
 
   .projects-grid {

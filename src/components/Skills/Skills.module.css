@@ -37,6 +37,21 @@
   box-sizing: border-box;
 }
 
+@media (max-width: 1024px) {
+  .skills-container {
+    gap: 25px;
+  }
+
+  .skills-left h2 {
+    font-size: 32px;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+  }
+}
+
 @media (max-width: 768px) {
   .skills-container {
     grid-template-columns: 1fr;
